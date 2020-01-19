@@ -75,6 +75,8 @@
       audio.currentTime = 0;  // 연속으로 키를 눌렀을 때도 오디오가 재생되도록
       audio.play();
     }
+
+    const keys = Array.from(document.querySelectorAll('.key'));
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
     window.addEventListener("keydown", playSound);
