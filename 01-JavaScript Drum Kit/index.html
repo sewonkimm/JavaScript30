@@ -58,14 +58,25 @@
   </body>
 
   <script>
+    function removeTransition(e){
+      if(e.propertyName !== "transform")  return;  
+
+      e.target.classList.remove("playing");
+    }
+
     function playSound(e){
       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-      
+      const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+
       if(!audio)  return;
-      
+
+      key.classList.add("playing"); // 키를 눌렀을 때 css 변경
+
       audio.currentTime = 0;  // 연속으로 키를 눌렀을 때도 오디오가 재생되도록
       audio.play();
     }
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
     window.addEventListener("keydown", playSound);
   </script>
 </html>

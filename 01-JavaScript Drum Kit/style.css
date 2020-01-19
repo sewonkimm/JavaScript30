@@ -29,12 +29,14 @@ body {
   text-align: center;
   text-shadow: 0 0 0.5rem black;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: .07s;
 }
 
 .playing {
   transform: scale(1.1);
   border-color: rgb(238, 148, 13);
   box-shadow: 0 0 1rem rgb(238, 148, 13);
+  transition: .07s;
 }
 
 kbd {
