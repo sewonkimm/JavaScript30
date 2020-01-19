@@ -57,5 +57,15 @@
     <audio data-key="76" src="sounds/tink.wav"></audio>
   </body>
 
-  <script></script>
+  <script>
+    function playSound(e){
+      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+      
+      if(!audio)  return;
+      
+      audio.currentTime = 0;  // 연속으로 키를 눌렀을 때도 오디오가 재생되도록
+      audio.play();
+    }
+    window.addEventListener("keydown", playSound);
+  </script>
 </html>
