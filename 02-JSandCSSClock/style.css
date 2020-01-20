@@ -34,4 +34,18 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  border-radius: 10rem;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.79, -0.01, 0.18, 0.99);
+}
+
+.hour-hand {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.second-hand {
+  background-color: red;
 }
