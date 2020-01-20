@@ -2,9 +2,9 @@
 
 > 업로드 날짜 : 2020/01/21
 
-[DEMO](https://sewonkimm.github.io/JavaScript30/02-JSandCSSClock/index.html)
+✅[DEMO](https://sewonkimm.github.io/JavaScript30/02-JSandCSSClock/index.html)
 
-## 개발 순서
+## ✍️개발 순서
 
 ### 1. 시침, 분침, 초침 그리기
 
@@ -19,7 +19,7 @@
 시간 데이터를 이용해 css를 변경  
 `element.style.transform` 항목을 변경하는 코드 작성
 
-## JS 문법
+## 🎮JS 문법
 
 ### let & const
 
@@ -27,7 +27,7 @@
 
 ### setInterval()
 
-## CSS 문법
+## 🎨CSS 문법
 
 ### transform-origin
 
@@ -35,7 +35,7 @@
 
 ### transition-timing-function:cubic-bezier()
 
-## 내가 추가한 항목
+## 🩹내가 추가한 항목
 
 ### 59분에서 60분으로 넘어갈 때 분침이 시계 반대 방향으로 도는 문제
 
