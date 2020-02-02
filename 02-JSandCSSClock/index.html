@@ -7,6 +7,9 @@
   </head>
 
   <body>
+    
+    <div class="clock-digital"></div>
+    
     <div class="clock">
       <div class="clock-face">
         <div class="hand hour-hand"></div>
@@ -50,6 +53,11 @@
       } else {
         hourHand.style.transition = "all 0.5s";
       }
+
+      // 숫자 시간 표시
+      const digital = `${hour}:${min}:${second}`;
+      const digitalDiv = document.querySelector('.clock-digital');
+      digitalDiv.innerHTML = digital;
     }
 
     setInterval(setDate, 1000);
