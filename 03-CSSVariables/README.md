@@ -14,6 +14,9 @@
 
 ### 2. javascript 적용
 
+1. addEventListner로 value 변경 감지
+2. 변경한 값을 CSS에 반영
+
 ## 🖥️HTML
 
 ### label 태그
@@ -21,6 +24,27 @@
 <label>태그는 <input>태그와 짝꿍!
 
 ## 🎮JS 문법
+
+### NodeList
+
+> [NodeList MDN](https://developer.mozilla.org/ko/docs/Web/API/NodeList)
+
+`document.querySelectorAll()`을 하면 NodeList가 반환된다. **Array랑은 다르다!**  
+NodeList는 JS API가 아닌 브라우저 API 이며, DOM의 변경 사항을 실시간으로 반영한다.
+이번 프로젝트에서는 굳이 Array로 변환시키지 않아도 되기 때문에 그냥 사용한다.
+
+### dataset
+
+> [HTMLElement.dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/dataset)
+
+data-\* 값을 모두 반환한다.
+
+### style.setProperty()
+
+> [stlye.setProperty MDN](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
+
+The `CSSStyleDeclaration.setProperty()` method interface sets a new value for a property on a CSS style declaration object.  
+css style 값을 새로 지정하는 메소드
 
 ## 🎨CSS 문법
 
