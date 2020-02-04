@@ -8,3 +8,4 @@
 | --- | ------------------- | -------------------------------------------------------------------------------- |
 | 01  | JavaScript Drum Kit | [DEMO](https://sewonkimm.github.io/JavaScript30/01-JavaScriptDrumKit/index.html) |
 | 02  | JS + CSS Clock      | [DEMO](https://sewonkimm.github.io/JavaScript30/02-JSandCSSClock/index.html)     |
+| 03  | CSS Variables       | [DEMO](https://sewonkimm.github.io/JavaScript30/03-CSSVariables/index.html)      |
