@@ -2,6 +2,8 @@
   --spacing: 10px;
   --blur: 10px;
   --base: #62bfad;
+  --grayscale: 0%;
+  --opacity: 100%;
 }
 
 body {
@@ -17,7 +19,7 @@ img {
   margin-top: 50px;
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur));
+  filter: blur(var(--blur)) grayscale(var(--grayscale)) opacity(var(--opacity));
 }
 
 .hl {

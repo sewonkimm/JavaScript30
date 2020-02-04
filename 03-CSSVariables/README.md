@@ -73,3 +73,11 @@ filter CSS 속성은 흐림 효과나 색상 변형 등 그래픽 효과를 요�
 blur, brightness, contrast, drop shadow, grayscale, hue, invert, opacity 등 등 다양한 요소를 조절할 수 있다.
 
 ## 🩹내가 추가한 항목
+
+### filter로 조절가능한 또 다른 그래픽 효과 적용
+
+filter에 grayscale, opacity 항목 추가
+
+```css
+filter: blur(var(--blur)) grayscale(var(--grayscale)) opacity(var(--opacity));
+```
