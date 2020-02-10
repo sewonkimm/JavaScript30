@@ -1,0 +1,41 @@
+html {
+  color: #fff;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.panel {
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.panel1 {
+  background-image: url(./images/bananas.jpg);
+  background-size: 1080px;
+}
+.panel2 {
+  background-image: url(./images/berries.jpg);
+  background-size: 1080px;
+}
+.panel3 {
+  background-image: url(./images/lemons.jpg);
+  background-size: 1080px;
+}
+.panel4 {
+  background-image: url(./images/mangos.jpg);
+  background-size: 1080px;
+}
+.panel5 {
+  background-image: url(./images/pineapples.jpg);
+  background-size: 1080px;
+}
