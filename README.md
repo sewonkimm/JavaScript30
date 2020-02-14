@@ -11,3 +11,4 @@
 | 03  | CSS Variables       | [DEMO](https://sewonkimm.github.io/JavaScript30/03-CSSVariables/index.html)      |
 | 04  | Array Cardio Day1   | [DEMO](https://sewonkimm.github.io/JavaScript30/04-ArrayCardioDay1/index.html)   |
 | 05  | Flex Panel Gallery  | [DEMO](https://sewonkimm.github.io/JavaScript30/05-FlexPanelGallery/index.html)  |
+| 06  | Ajax Type Ahead     | [DEMO](https://sewonkimm.github.io/JavaScript30/06-AjaxTypeAhead/index.html)     |
