@@ -21,6 +21,8 @@
 
 ### 3. search bar에 입력된 값과 match되는 도시 목록 찾고, 화면에 표시하기
 
+search bar에 입력된 값과 도시 목록에서 match되는 것만 filtering
+
 ## 🎮JS 문법
 
 ### Fetch API
@@ -34,6 +36,14 @@ Request와 Response로 네트워크 통신을 한다.
 `Array.push(...data)`  
 ES6문법으로 data 앞에 `...`을 붙여주면 데이터 뭉치를 펼쳐서(Spread) 배열에 하나씩 넣어줄 수 있다.
 
-### RegExp
+### 정규표현식과 RegExp
+
+> [RegExp MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+
+**정규 표현식(正規表現式, regular expression/regexp)**  
+텍스트의 패턴을 표현하는 방법
+
+- `g`: 문자열 전체 판별
+- `i`: 대소문자 무시
 
 ## 🎨CSS 문법

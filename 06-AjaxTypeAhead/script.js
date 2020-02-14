@@ -7,4 +7,10 @@ fetch(endpoint)
   .then(blob => blob.json())
   .then(data => cities.push(...data));
 
-console.log(cities);
+function findMatches(wordToMatch, cities) {
+  return cities.filter(place => {
+    // 검색어와 매치하는 도시 찾기
+    const regex = new RegExp(wordToMatch, "gi");
+    return place.city.match(regex) || place.state.match(regex);
+  });
+}
