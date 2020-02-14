@@ -46,4 +46,8 @@ ES6문법으로 data 앞에 `...`을 붙여주면 데이터 뭉치를 펼쳐서(
 - `g`: 문자열 전체 판별
 - `i`: 대소문자 무시
 
-## 🎨CSS 문법
+### join
+
+> [join MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
+배열의 모든 요소를 연결해 하나의 문자열로 만드는 함수
