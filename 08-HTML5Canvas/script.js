@@ -8,12 +8,13 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = "#BADA55";
 ctx.lineJoin = "round";
 ctx.lineCap = "round";
-ctx.lineWidth = 100;
+ctx.lineWidth = 0;
 
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;
+let direction = true;
 
 function draw(e) {
   if (!isDrawing) return; // mouseDown이 아닐 때 그리지 않기
@@ -31,6 +32,16 @@ function draw(e) {
   hue++;
   if (hue >= 360) {
     hue = 0;
+  }
+
+  // lineWidth가 1~100 사이에서 움직이도록
+  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+    direction = !direction;
+  }
+  if (direction) {
+    ctx.lineWidth++;
+  } else {
+    ctx.lineWidth--;
   }
 }
 
