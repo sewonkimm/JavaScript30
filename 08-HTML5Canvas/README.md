@@ -21,6 +21,7 @@
 색도(Hue), 채도(Saturation), 명도(Value)의 3요소로 구성하는 방법
 
 5. Stroke 크기가 바뀌도록 그리기
+6. Blend mode 설정
 
 ## 🎮JS 문법
 
