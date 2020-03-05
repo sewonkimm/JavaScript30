@@ -13,3 +13,4 @@
 | 05  | Flex Panel Gallery  | [DEMO](https://sewonkimm.github.io/JavaScript30/05-FlexPanelGallery/index.html)  |
 | 06  | Ajax Type Ahead     | [DEMO](https://sewonkimm.github.io/JavaScript30/06-AjaxTypeAhead/index.html)     |
 | 07  | Array Cardio Day2   | [DEMO](https://sewonkimm.github.io/JavaScript30/07-ArrayCardioDay2/index.html)   |
+| 08  | HTML5 Canvas        | [DEMO](https://sewonkimm.github.io/JavaScript30/08-HTML5Canvas/index.html)       |
