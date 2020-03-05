@@ -13,6 +13,14 @@
 1. canvas 생성
 2. 2D context 설정
 3. 마우스를 누른채(mousedown)로 움직일 때(mousemove) 그림이 그려지도록 함
+4. 색이 바뀌도록 그리기  
+   `context.strokeStyle='hsl(hue,saturation,lightness)'`
+
+### What is HSL?
+
+색도(Hue), 채도(Saturation), 명도(Value)의 3요소로 구성하는 방법
+
+5. Stroke 크기가 바뀌도록 그리기
 
 ## 🎮JS 문법
 
