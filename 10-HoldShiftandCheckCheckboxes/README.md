@@ -12,5 +12,16 @@
 
 1. 모든 checkbox 선택 `querySelectorAll()`
 2. 모든 checkbox에 click 이벤트 리스너 추가
+3. shift key이 눌렸는지 안 눌렸는지 확인
+4. shift key가 눌렸을 때 그 사이 checkbox를 인식
+5. 인식한 checkbox들 check
 
-## 🎮JS 문법
+## 🎮JS 핵심 포인트
+
+```javascript
+if (checkbox === this || checkbox === lastChecked) {
+  inBetween = !inBetween;
+}
+```
+
+shift key가 눌리든 안눌리든 마지막으로 클릭된 checkbox는 lastChecked에 저장해 놓고, shift key가 눌렸을 때 모든 checkbox를 돌면서 현재 클릭한 요소와 lastChecked 사이의 것들을 구분할 수 있도록 하는 코드
