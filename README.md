@@ -16,3 +16,4 @@
 | 08  | HTML5 Canvas                    | [DEMO](https://sewonkimm.github.io/JavaScript30/08-HTML5Canvas/index.html)                 |
 | 09  | Dev Tools Domination            | [DEMO](https://sewonkimm.github.io/JavaScript30/09-DevToolsDomination/index.html)          |
 | 10  | Hold Shift and Check Checkboxes | [DEMO](https://sewonkimm.github.io/JavaScript30/10-HoldShiftandCheckCheckboxes/index.html) |
+| 11  | Custom Video Player             | [DEMO](https://sewonkimm.github.io/JavaScript30/11-CustomVideoPlayer/index.html)           |
